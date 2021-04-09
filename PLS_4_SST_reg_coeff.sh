@@ -93,8 +93,8 @@ do
     cdo sub -invertlat sst_timmean.nc Beta_pred_X1_X2_X3.nc $i.R_coeff/$j._intercept_sst.nc
     rm $i.R_coeff/Beta_x1*
   done
- echo "Working????!!!!!!!!!!!!!!!!!!!!!!"
- echo "YAAAAAASSSSSSSSS!!!!!!!!!!!!!!!!!" 
+ echo ""
+ echo "!!!!" 
  rm *.nc
 done 
 
