@@ -24,6 +24,7 @@ do
   pred3=TASI/S_TASI/enlarged_TASI_1880-2010_R$i.nc
   M_END=12 #=========================================================================================
   # Beginning of inner loop. For Months 1-12.
+  # In principle, We could pipe out this lines, but we can also write them individually for simplicity
   for j in $(seq 1 $M_END)
   do 
     ##Predictand
@@ -104,4 +105,4 @@ mv *.R_coeff Coefficients/
 #=========================================================================================
 #=========================================================================================
 
-exit
+exit 0
