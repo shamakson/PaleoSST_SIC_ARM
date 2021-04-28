@@ -1,5 +1,6 @@
 #!/bin/bash
 # A shell script to compute partial least squares regression, using multiple "cdo" commands.
+# CHECK:Intercept is 0 eveywhere, if the inputs are standardized
 
 clear
 
